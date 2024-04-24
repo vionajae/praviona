@@ -17,6 +17,7 @@ return new class extends Migration
             $table->integer('id_buku');
             $table->integer('jumlah');
             $table->timestamps();
+            $table->primary('id');
         });
     }
 

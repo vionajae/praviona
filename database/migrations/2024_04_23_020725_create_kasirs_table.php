@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('password',255);
             $table->enum('akses',['admin','kasir']);
             $table->timestamps();
+            $table->primary('id_kasir');
         });
     }
 

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('id_distributor');
             $table->date('tanggal');
             $table->timestamps();
+            $table->primary('id_pasok');
         });
     }
 

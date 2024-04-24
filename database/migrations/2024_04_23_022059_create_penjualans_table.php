@@ -17,6 +17,7 @@ return new class extends Migration
             $table->date('tanggal');
             $table->integer('total');
             $table->timestamps();
+            $table->primary('id_penjualan');
         });
     }
 
